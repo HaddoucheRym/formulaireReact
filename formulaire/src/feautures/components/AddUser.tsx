@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { User } from '../services/user.type'
-// import { InputUser } from './InputUser'
+import './Add.css'
+
 export type AddUserProps = {
     addUser(newUser: User): void,
     users:User[],
@@ -33,16 +34,19 @@ export const AddUser = (props: AddUserProps) => {
 
     return (
         <>
+        <div className='add'>
             <h2>AddUser</h2>
             <div>
                 <p>
-                    nom: <input type="text"  defaultValue={newUser.nom} onChange={(event:any)=> handleChangeNom(event)} />
+                    nom: <input className='inputNom' type="text"  defaultValue={newUser.nom} onChange={(event:any)=> handleChangeNom(event)} />
                 </p>
                 <p>
-                    prenom: <input type="text" defaultValue={newUser.prenom} onChange={(event:any)=> handleChangePrenom(event)} />
+                    prenom: <input className='inputNom' type="text" defaultValue={newUser.prenom} onChange={(event:any)=> handleChangePrenom(event)} />
                 </p>
             </div>
             <button onClick={handleClickSave} >Ajouter</button>
+        </div>
+            
         </>
 
 

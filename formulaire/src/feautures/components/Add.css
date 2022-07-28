@@ -1,0 +1,13 @@
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputNom{
+    border-radius: 10px;
+    height: 35px;
+    border-color:rgb(255, 193, 203);
+    box-shadow: 10px 10px 20px #91a6a5, -10px -10px 20px #b0dfda;
+    border: none;
+}

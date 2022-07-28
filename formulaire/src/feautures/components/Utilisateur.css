@@ -1,0 +1,22 @@
+.user-box{
+  background-color: rgb(255, 193, 203);
+}
+
+.supprimer{
+    border: none;
+    background-color: rgb(255, 193, 203);
+}
+
+.pi-trash{
+    color: red;
+}
+
+.modifier{
+    border: none;
+    background-color: rgb(255, 193, 203);
+
+}
+
+.pi-pencil{
+   color: rgb(181, 93, 225);
+}

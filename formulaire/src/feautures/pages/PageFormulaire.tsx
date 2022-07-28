@@ -35,6 +35,7 @@ export const PageFormulaire = () => {
 
     return (
         <>
+        <h2 className='listUser'>Users List</h2>
             <FormulaireList users={users} deleteUser={deleteUser} modifiedUser={modifiedUser} />
             <AddUser addUser={addUser} users={users} setUsers={setUsers} />
         </>
