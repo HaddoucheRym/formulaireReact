@@ -38,13 +38,13 @@ export const AddUser = (props: AddUserProps) => {
             <h2>AddUser</h2>
             <div>
                 <p>
-                    nom: <input className='inputNom' type="text"  defaultValue={newUser.nom} onChange={(event:any)=> handleChangeNom(event)} />
+                    <input className='inputNom' type="text"  defaultValue={newUser.nom} onChange={(event:any)=> handleChangeNom(event)} placeholder='Nom' />
                 </p>
                 <p>
-                    prenom: <input className='inputNom' type="text" defaultValue={newUser.prenom} onChange={(event:any)=> handleChangePrenom(event)} />
+                     <input className='inputNom' type="text" defaultValue={newUser.prenom} onChange={(event:any)=> handleChangePrenom(event)} placeholder='Prenom'/>
                 </p>
             </div>
-            <button onClick={handleClickSave} >Ajouter</button>
+            <button className='ajouter' onClick={handleClickSave} >Ajouter</button>
         </div>
             
         </>

@@ -3,6 +3,7 @@ import { AddUser } from '../components/AddUser'
 import { FormulaireList } from '../components/FormulaireList'
 import { formulaireService } from '../services/formulaireService'
 import { User } from '../services/user.type'
+import './PageFormulaire.css'
 
 export const PageFormulaire = () => {
     const [users, setUsers] = useState<User[]>([])

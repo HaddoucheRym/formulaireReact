@@ -11,3 +11,15 @@
     box-shadow: 10px 10px 20px #91a6a5, -10px -10px 20px #b0dfda;
     border: none;
 }
+
+h2{
+    text-decoration: underline wavy;
+}
+
+.ajouter{
+    border-radius: 30px;
+    background-color: rgb(255, 193, 203);
+    border: none;
+    width: 150PX;
+    height: 30px;
+}
